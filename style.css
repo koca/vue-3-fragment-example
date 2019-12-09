@@ -5,3 +5,44 @@ body {
 .border {
   border: 1px solid red;
 }
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  padding: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  padding-bottom: 15px;
+  font-size: 25px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+.popup {
+  margin: 15px;
+  padding: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+.twitter {
+  position: fixed;
+  bottom: 40px;
+  width: 100%;
+  color: #555;
+}
+.twitter a {
+  text-decoration: none;
+  color: #333;
+}

@@ -2,9 +2,10 @@ import { createApp } from "./vue.esm-browser";
 
 const Example = {
   template: `
-    <div>
-      Vue 3 components
-    </div>
+  See? No root
+  <li>Flex Item 1</li>
+  <li>Flex Item 2</li>
+  there is also &lt;Fragment&gt; Component
   `
 };
 
@@ -14,7 +15,7 @@ const App = {
   },
 
   template: `
-    <h3>Vue 3</h3>
+    <h1>Vue 3 - Fragment Example</h1>
     <Example />
   `
 };
